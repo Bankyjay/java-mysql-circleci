@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       
-      - image: circleci/openjdk:8-jdk
+      - image: cicimg/openjdk:11.0.12
 
       
     working_directory: ~/java-mysql-circleci
